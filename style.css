@@ -1,0 +1,98 @@
+:root {
+    --claro: #FFFFEB;
+    --azul-medio: #1B998B;
+    --laranjinha: #FFA985;
+    --vermelhinho: #E84855;
+    --azul-escuro: #383B57;
+    --laranjao: #FF7033;
+    --fonte-principal: "Montserrat", sans-serif;
+    --fonte-tarefas: "Permanent Marker", cursive;;
+}
+
+.body {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    user-select: none;
+}
+
+.titulo {
+    color: var(--azul-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+}
+
+#geral {
+    width: 500px;
+    background-color: var(--laranjinha);
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    min-height: 200px;
+}
+
+.alinhamento__barra-botao {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#input__tarefa {
+    width: 65%;
+    height: 38px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: var(--vermelhinho);
+    font-family: var(--fonte-tarefas);
+    font-size: 20px;
+    color: var(--claro);
+}
+
+#input__tarefa::placeholder {
+    color: var(--claro);
+    font-family: var(--fonte-tarefas);
+    font-size: 20px;
+}
+
+#input__tarefa:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#botao {
+    width: 25%;
+    height: 38px;
+    border-radius: 30px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--azul-medio);
+    color: var(--claro);
+    border: none;
+}
+
+#botao:hover {
+    background-color: var(--azul-escuro);
+}
+
+#botao:active {
+    background-color: var(--laranjao);
+}
+
+#tarefas {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    cursor: pointer;
+    font-family: var(--fonte-tarefas);
+    font-size: 25px;
+    color: var(--claro);
+}
+
+#tarefas:hover {
+    scale: 101%;
+}
