@@ -1,3 +1,4 @@
+/*:p */
 :root {
     --palavras: #FB5012;
     --botao: #CBBAED;
@@ -6,7 +7,7 @@
     --titulo: #FB4D0E;
     --hover: #01FDF6;
     --fonte-principal: "Montserrat", sans-serif;
-    --fonte-tarefas: "Permanent Marker", cursive;;
+    --fonte-tarefas: "Permanent Marker", cursive;
 }
 
 .body {
