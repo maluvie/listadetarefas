@@ -45,4 +45,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/lista-de-tarefas:latest
+          tags: ${{ vars.DOCKERHUB_USERNAME }}/listadetarefas:latest
