@@ -38,4 +38,20 @@ jobs:
           
       - name: Perform CodeQL Analysis
         uses: github/codeql-action/analyze@v3
-  
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22 # mesma versão que você usa localmente
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run tests
+        run: npm test
