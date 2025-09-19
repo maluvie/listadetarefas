@@ -1,0 +1,23 @@
+{
+  "name": "lista-de-tarefas",
+  "version": "1.0.0",
+  "description": "Projeto simples de lista de tarefas com testes unitários em Jest",
+  "main": "script.js",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "keywords": [
+    "javascript",
+    "jest",
+    "teste-unitario",
+    "lista-de-tarefas"
+  ],
+  "author": "Malu Vieira",
+  "license": "MIT",
+  "devDependencies": {
+    "@testing-library/dom": "^9.3.4",
+    "@testing-library/jest-dom": "^6.6.3",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.1.2"
+  }
+}
