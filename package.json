@@ -4,7 +4,7 @@
   "description": "Projeto simples de lista de tarefas com testes unitários em Jest",
   "main": "script.js",
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "keywords": [
     "javascript",
